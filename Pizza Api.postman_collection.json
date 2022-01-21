@@ -1,0 +1,84 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Pizza Api",
+		"_postman_id": "7207403e-e620-6410-2666-2d1f444fcceb",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7104/pizzas - get",
+			"request": {
+				"url": "https://localhost:7104/pizzas",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7104/pizzas - post",
+			"request": {
+				"url": "https://localhost:7104/pizza",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Pepperoni\",\r\n    \"description\": \"A classic pepperoni pizza\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7104/pizzas - put",
+			"request": {
+				"url": "https://localhost:7104/pizza/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \"id\": 1,\r\n    \"name\": \"Pineapple\"\r\n  }\r\n"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7104/pizzas - delete",
+			"request": {
+				"url": "https://localhost:7104/pizza/2",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7104/pizza?id= - get by id",
+			"request": {
+				"url": "https://localhost:7104/pizza/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
