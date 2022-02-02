@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApi", "PizzaApi\PizzaApi.csproj", "{975A8CCD-C8EF-4DF7-B31D-7021664CB45F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzaApi", "PizzaApi\PizzaApi.csproj", "{975A8CCD-C8EF-4DF7-B31D-7021664CB45F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PirzzaApi.Core", "PirzzaApi.Core\PirzzaApi.Core.csproj", "{5E0F0512-E02E-4F1E-8C22-60C44A9B1DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaApi.Test", "PizzaApi.Test\PizzaApi.Test.csproj", "{042C3FBF-E44F-404D-967E-1CCF06312451}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{975A8CCD-C8EF-4DF7-B31D-7021664CB45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{975A8CCD-C8EF-4DF7-B31D-7021664CB45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{975A8CCD-C8EF-4DF7-B31D-7021664CB45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E0F0512-E02E-4F1E-8C22-60C44A9B1DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0F0512-E02E-4F1E-8C22-60C44A9B1DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0F0512-E02E-4F1E-8C22-60C44A9B1DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0F0512-E02E-4F1E-8C22-60C44A9B1DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042C3FBF-E44F-404D-967E-1CCF06312451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042C3FBF-E44F-404D-967E-1CCF06312451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042C3FBF-E44F-404D-967E-1CCF06312451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042C3FBF-E44F-404D-967E-1CCF06312451}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
