@@ -9,7 +9,7 @@ using PizzaApi.Persistence;
 
 namespace PizzaApi.Migrations
 {
-    [DbContext(typeof(PizzaDb))]
+    [DbContext(typeof(PizzaContextDb))]
     [Migration("20220121203816_InitialCreate")]
     partial class InitialCreate
     {

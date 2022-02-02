@@ -8,7 +8,7 @@ using PizzaApi.Persistence;
 
 namespace PizzaApi.Migrations
 {
-    [DbContext(typeof(PizzaDb))]
+    [DbContext(typeof(PizzaContextDb))]
     partial class PizzaDbModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
