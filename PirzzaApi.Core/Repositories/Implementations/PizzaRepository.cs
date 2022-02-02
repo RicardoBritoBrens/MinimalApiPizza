@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PirzzaApi.Core.Repositories.Implementations
 {
-    internal class PizzaRepository: IPizzaRepository
+    public class PizzaRepository: IPizzaRepository
     {
     }
 }
